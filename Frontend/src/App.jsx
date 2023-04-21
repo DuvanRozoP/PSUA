@@ -1,12 +1,14 @@
 // HOOKS
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+//PAGES
+import Login from './pages/Login/Login';
 
 function App() {
   const router = createBrowserRouter([
     {
       path:'/',
-      element:<></>,
+      element:<Login/>,
       children:[
         // Next routes
       ]
